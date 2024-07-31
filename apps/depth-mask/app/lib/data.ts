@@ -62,6 +62,15 @@ export const photos = {
     },
   },
 
+  "card8": {
+    src: "/3d/21.png",
+    depthSrc: "/3d/21-depth.png",
+    focus: {
+      x: -0.075,
+      y: 0.054,
+    },
+  },
+
   "4_怪物来袭": {
     src: "/3d/4_怪物来袭.png",
     depthSrc: "/3d/4_怪物来袭-depth.png",
