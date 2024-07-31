@@ -61,4 +61,22 @@ export const photos = {
       y: 0.054,
     },
   },
+
+  "3 card": {
+    src: "/3d/3.png",
+    depthSrc: "/3d/3-depth.png",
+    focus: {
+      x: -0.075,
+      y: 0.054,
+    },
+  },
+
+  "20 card": {
+    src: "/3d/20.png",
+    depthSrc: "/3d/20-depth.png",
+    focus: {
+      x: -0.075,
+      y: 0.054,
+    },
+  },
 } as const;
