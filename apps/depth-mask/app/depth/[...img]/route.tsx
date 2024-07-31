@@ -4,12 +4,8 @@ const WIDTH = 400 * 2;
 const HEIGHT = 500 * 2;
 
 const depths = {
-  "angel.jpg": "angel-depth.png",
-  "tokyo.jpg": "tokyo-depth.png",
-  "ml.jpg": "ml-depth.png",
-  "osaka.jpg": "osaka-depth.png",
-  "ginza.jpg": "ginza-depth.png",
-  "mallorca.jpg": "mallorca-depth.png",
+  "20.png": "20-depth.png",
+  "3.png": "3-depth.png",
 } as const;
 
 export async function GET(request: Request) {
