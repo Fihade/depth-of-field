@@ -363,7 +363,6 @@ export default function Home() {
         </Select>
       </div>
       <SidebarLayer layers={photoDepthMap} />
-      <Footer />
     </>
   );
 }
