@@ -30,7 +30,7 @@ const VOLUME_SCALE = new Array(10).fill(0).map((_, i) => {
   return Math.round(128 * Math.pow(1.22, i) - 128);
 });
 const DEFAULT_VOLUME = VOLUME_SCALE[2];
-const DEFAULT_PHOTO = "20 card";
+const DEFAULT_PHOTO = "card1";
 
 const LOCK_CURSOR_TIME = 128;
 const SNAP_TIME = 650;
