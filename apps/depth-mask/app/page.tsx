@@ -3,7 +3,6 @@
 
 import { useEffect, useState, useRef } from "react";
 import { photos } from "./lib/data";
-import Replicate from "replicate";
 
 import {
   Select,
@@ -71,14 +70,6 @@ export default function Home() {
     set("volume", 0);
     set("renderLayerSeparation", 0);
     set("focusing", Date.now());
-
-    const input = {
-      image: "https://replicate.delivery/pbxt/LBRD51RN86Ferepw2ClsJWKFn0oWhnSsuCzBIap416ksUJzg/demo07.jpg"
-  };
-  
-  const output = await replicate.run("chenxwh/depth-anything-v2:b239ea33cff32bb7abb5db39ffe9a09c14cbc2894331d1ef66fe096eed88ebd4", { input });
-  console.log(output)
-  set("photo", output);
 
     const depthMapClamp = 82;
     async function updateDepthLayers(depthSrc: string) {
